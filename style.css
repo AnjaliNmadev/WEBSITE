@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /*background-color: #fffbfbee; */
+   
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+ .sevices .nav-link:hover{
+    background-color: rgb(233, 240, 241);
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    
+}
+.links:hover{
+  border: 2px solid rgb(233, 240, 241);
+    border-radius: 10px;
+
+    
+}
+
+.navbar{
+    background-color: rgb(125, 164, 236);
+    box-shadow: 0px 8px 8px 0px rgba(125, 164, 236,0.6);
+  
+}
+.nav-item .nav-link{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1em;
+}
+#home{
+    padding: 20px;
+}
+
+#home img{
+margin-top: 20px;
+    
+}
+#servicing{
+    margin-top: 40px;
+    padding: 25px;
+       text-align: center;
+       background-color: rgba(163, 161, 161, 0.11);
+}
+   
+  
+
+.service-icon{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px #323232;
+    
+}
+h1{
+    font-weight: 600;
+}
+.service-heading{
+   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pd{
+    padding: 15px;
+    text-align: center;
+}
+.client-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 0px #323232;
+    margin-bottom: 20px;
+}
+.carousel-inner ,.carousel-item img{
+    margin-top: 20px;
+}
+
+.carousel-item p{
+    padding: 20px;
+    text-align: center;
+    
+}
+.social-icon{
+    gap: 25px;
+    border: 1px solid #cccc;
+    padding: 10px;
+    font-size: 1.2em;
+   margin-bottom: 10px;
+   cursor: pointer;
+   box-shadow: 0px 0px 5px 0px #323232;
+   margin-top: 0.2px;
+   margin-bottom: 30px;
+  
+} 
+.social-icon:hover{
+    background-color: rgba(125, 164, 241, 0.8);
+    color: aliceblue;
+    box-shadow: inset 0px 0px 5px 0px #323232;
+}
+.fa-chevron-left ,.fa-chevron-right {
+    font-size: 25px;
+    color: #323232;
+    margin-bottom: 230px;
+    font-weight: 900;
+}
+.arrow{
+    text-decoration: none;
+    
+}
+#pricing{
+    background-color:rgba(250, 251, 253, 0.945) ;
+   
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: rgb(125, 164, 236);
+    color: aliceblue;
+    font-weight: 600;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 7px 8px rgba(113, 115, 116, 0.3);
+}
+.btn:hover{
+    background-color: rgba(234, 239, 248, 0.945);
+    color: #323232;
+}
+
+
+.card{
+    margin-top: 20px;
+    border: none;
+    box-shadow:  5px 5px 7px 8px rgba(113, 115, 116, 0.3);
+    background-color: rgba(233, 240, 241,0.4);
+    border-radius: 20px;
+
+}
+.card:hover{
+    background-color:  rgba(125, 164, 236,0.67);
+    color: #323232;
+    font-weight: 600;
+    font-size: 17px;
+    
+
+}
+
+.card-head h3{
+   padding: 10px;
+    border-bottom: 2px solid rgba(221, 221, 221, 0.9);
+    font-weight: 600;
+  
+}
+.card-footer{
+
+    background-color: transparent;
+}
+#contact{
+    background-color: rgba(221, 221, 221, 0.3);
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#contact h1{
+    text-align: center;
+}
+.s-btn{
+    margin-left: 110px;
+}
+address a ,#follow a{
+    text-decoration: none;
+    color: #323232;
+}
+a.nav-link.active{
+    background-color: rgb(233, 240, 241);
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
